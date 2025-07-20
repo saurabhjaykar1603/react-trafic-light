@@ -1,12 +1,65 @@
-# React + Vite
+# React Traffic Light Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive traffic light simulator built with React and Vite. This application simulates a traffic light with automatic cycling and manual control options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🚦 Fully functional traffic light simulation
+- ⏱️ Automatic cycling between red, yellow, and green lights
+- 🔄 Countdown timer display on active lights
+- 🎮 Manual control buttons for each light
+- ⏯️ Start/Stop functionality for automatic cycling
+- 🎨 Clean and intuitive user interface
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (version 14.0 or higher recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+```
+
+2. Navigate to the project directory:
+```bash
+cd my-react-app
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+5. Open your browser and visit `http://localhost:5173` (or the port shown in your terminal)
+
+## Usage
+
+The traffic light simulator offers two modes of operation:
+
+1. **Automatic Mode**
+   - Click the "Start" button to begin automatic cycling
+   - Each light will display for 3 seconds with a countdown
+   - Click "Stop" to pause the automatic cycling
+
+2. **Manual Mode**
+   - Use the individual Red, Yellow, and Green buttons to manually control the traffic light
+   - Manual control automatically stops the automatic cycling
+
+## Built With
+
+- [React](https://reactjs.org/) - Frontend library
+- [Vite](https://vitejs.dev/) - Build tool and development server
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
