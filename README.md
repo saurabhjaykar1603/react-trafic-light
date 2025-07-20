@@ -2,6 +2,8 @@
 
 A simple and interactive traffic light simulator built with React and Vite. This application simulates a traffic light with automatic cycling and manual control options.
 
+🔗 [Live Demo](https://react-trafic-light.vercel.app/)
+
 ## Features
 
 - 🚦 Fully functional traffic light simulation
